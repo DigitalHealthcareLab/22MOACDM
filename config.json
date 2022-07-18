@@ -1,5 +1,5 @@
 {
-    "working_date": "19000101",
+    "working_date": "20220718",
     "dbms": "postgresql",
     "mssql": {
         "@server": "111.111.111.111",
@@ -125,12 +125,12 @@
         }
     },
     "translatequerysql3":{
-        "../_sql/3_make_table_from_2cohort/make_person_from_2cohort_{dbms}.sql":{
+        "../_sql/3_make_table_from_2cohort_no_sampling/make_person_from_2cohort_{dbms}.sql":{
             "@cdm_database_schema": "CDM.dbo",
             "@target_database_schema": "temp_moa.dbo",
             "@target_person_table_total": "person_{drug}_total",
             "@target_person_table_case": "person_{drug}_case",
-            "@target_person_table": "person_{drug}"
+            "@target_person_table": "person_{drug}_no_sampling"
         }
     },
     "translatequerysql4":{
